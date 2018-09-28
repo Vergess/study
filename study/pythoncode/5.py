@@ -25,4 +25,5 @@
 dic={}
 i=0
 while i<10:
-    dic.keys
+    print(i)
+    i=i+1 123
