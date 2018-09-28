@@ -1,4 +1,5 @@
 # 1
+<<<<<<< HEAD
 # num=0
 # for i in range(2,101):
 #     p=0
@@ -156,3 +157,16 @@
 #     j=j+ch(i)
 # print('sum is %d'%(j))
 
+=======
+num=0
+for i in range(2,101):
+    p=0
+    for j in range(2,i):
+        if i%j==0:
+            p=p+1
+    if p==0:
+        print(i,end=" ")
+        num=num+1
+print(num)
+        
+>>>>>>> b18fcbb52dc4f856ddbbf511e13d92fd97f1aecd
