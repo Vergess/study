@@ -41,11 +41,39 @@
 # print(a)
 # print(b)
 # 5
-s=input('please input string')
-while len(s)!=0:
-    star=s[0]
-    num=s.count(star)
-    print('%s -> %d'%(star,num))
-    s=s.replace(star,' ')
-    s=s.strip()
+# s=input('please input string')
+# while len(s)!=0:
+#     star=s[0]
+#     num=s.count(star)
+#     print('%s -> %d'%(star,num))
+#     s=s.replace(star,' ')
+#     s=s.strip()
+
+
+# 1
+# r=eval(input('please input a list'))
+# for i in r:
+#     print('the circle\'s area with the radius of %f is: %f'%(i,3.14*i*i) )
+# 2
+# a=eval(input('please input a 3*3 array'))
+# for i in a:
+#     for j in i:
+#         print(j,end=' ')
+#     print(' ')
+# 3
+# a=[1,2,3]
+# b=[2,3,4]
+# c1=[i for i in a if i in b]
+# c2=[i for i in a if i not in b]
+# print(c1)
+# print(c2)
+# 4
+# import json
+# stu=eval(input('please input a dict(input 1 choose the default)'))
+# if stu==1:
+#     stu={'name':'zhang san','sex':'male','age':'25'}
+# stu1=json.dumps(stu)
+# print(stu1)
+
+
     
